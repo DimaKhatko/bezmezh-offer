@@ -9,7 +9,7 @@ const links: { href: string; label: string; external?: boolean }[] = [
   { href: "#program", label: "Програма" },
   { href: "#price", label: "Вартість" },
   { href: "#contact", label: "Контакти" },
-  { href: "https://www.pointcamp.com.ua/croatia/", label: "Croatia'26", external: true },
+  { href: "https://croatia.pointcamp.com.ua/", label: "Croatia'26", external: true },
 ];
 
 export function Header() {
@@ -88,13 +88,6 @@ export function Header() {
           ))}
         </nav>
 
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center gap-2 rounded-2xl bg-primary text-primary-foreground px-4 py-2 text-sm font-semibold shadow-card hover:brightness-110 transition"
-        >
-          Залишити заявку
-        </a>
-
         <button
           aria-label="Меню"
           onClick={() => setOpen((v) => !v)}
@@ -119,13 +112,6 @@ export function Header() {
                 {l.label}
               </a>
             ))}
-            <a
-              href="#contact"
-              onClick={() => setOpen(false)}
-              className="mt-2 inline-flex justify-center rounded-2xl bg-primary text-primary-foreground px-4 py-3 font-semibold"
-            >
-              Залишити заявку
-            </a>
           </div>
         </div>
       )}
