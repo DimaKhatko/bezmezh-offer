@@ -28,23 +28,8 @@ export function Hero() {
             з досвідченим супроводом і простором, щоб усе осмислити.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="#contact"
-              className="pulse-red inline-flex items-center gap-2 rounded-2xl bg-white text-primary px-6 py-3.5 font-semibold shadow-lg hover:scale-[1.02] active:scale-100 transition"
-            >
-              Залишити заявку
-            </a>
-            <a
-              href="tel:+380662217373"
-              className="inline-flex items-center gap-2 rounded-2xl border-2 border-white/80 text-white px-6 py-3.5 font-semibold hover:bg-white/10 transition"
-            >
-              +38 066 221 73 73
-            </a>
-          </div>
-
           <div className="mt-10 text-sm text-white/85 tracking-wide">
-            10 днів / 9 ночей · Tokio–Кіото–Нара–Осака · мала група · 21–30 жовтня 2026 · 3150 €
+            10 днів / 9 ночей · Tokio–Кіото–Нара–Осака · мала група · 11–20 жовтня 2026 · 3000 €
           </div>
         </div>
 
