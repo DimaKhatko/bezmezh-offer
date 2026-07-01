@@ -29,25 +29,18 @@ export function Price() {
                 aria-hidden
               />
               <div className="text-xs uppercase tracking-widest opacity-80">料金 · Вартість</div>
-              <div className="mt-3 font-display font-black text-6xl leading-none">3150 €</div>
+              <div className="mt-3 font-display font-black text-6xl leading-none">3000 €</div>
               <div className="mt-2 text-white/80">10 днів / 9 ночей</div>
 
               <div className="mt-7 space-y-2">
                 <div className="flex items-center gap-3 rounded-2xl bg-white/15 backdrop-blur px-4 py-3">
                   <span className="text-2xl">🍁</span>
                   <div>
-                    <div className="font-semibold">21.10 – 30.10.2026</div>
+                    <div className="font-semibold">11.10 – 20.10.2026</div>
                     <div className="text-xs text-white/75">осіння група</div>
                   </div>
                 </div>
               </div>
-
-              <a
-                href="#contact"
-                className="mt-7 inline-flex w-full items-center justify-center rounded-2xl bg-white text-primary font-semibold px-5 py-3.5 hover:scale-[1.02] transition"
-              >
-                Забронювати місце
-              </a>
             </div>
           </aside>
 
