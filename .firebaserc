@@ -5,8 +5,8 @@
   "targets": {
     "pointcamp-a1a24": {
       "hosting": {
-        "japan": [
-          "pointcamp-japan"
+        "bezmezh": [
+          "pointcamp-bezmezh"
         ]
       }
     }
