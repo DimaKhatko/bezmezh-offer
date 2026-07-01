@@ -4,9 +4,9 @@ import oceanImg from "@/assets/whyus-ocean.webp";
 
 const trust = [
   { num: "15+", label: "років роботи з підлітками" },
-  { num: "10", label: "маленькі комфортні групи" },
+  { num: "12–15", label: "маленькі комфортні групи" },
   { num: "100%", label: "маршрут перевірений особисто" },
-  { num: "2", label: "дорослих супроводжуючих на 10 учасників" },
+  { num: "3", label: "досвідчених супроводжуючих поряд" },
 ];
 
 export function WhyUs() {
