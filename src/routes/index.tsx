@@ -34,6 +34,9 @@ export const Route = createFileRoute("/")({
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
+      // Private offer for one school group and a copy of the Japan landing: keep it
+      // out of search and AI answers so it does not compete with japan.pointcamp.com.ua.
+      { name: "robots", content: "noindex, follow" },
     ],
   }),
   component: Index,
